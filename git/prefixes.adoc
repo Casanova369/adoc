@@ -1,4 +1,4 @@
-= Git `-m` prefixes
+= Git comment -prefixes
 
 1. `(init)`: `Ready. Set. Go!`
 2. `feat`:
@@ -11,7 +11,7 @@
 9. `revert`:
 10. `merge`:
 11. `build`:
-12. `ci`:
+12. `ci` _or_ `cd`:
 13. `chore:` nothing of code (e.g. documentation, comments or core readability)
 14. `chore(deps)`:
 15. `chore(ci)`:
