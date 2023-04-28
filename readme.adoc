@@ -1,4 +1,3 @@
 = Feasting AsciiDocs!
 
-AsciiDosc are a *_powerfull_* documentation tool, that permit *_faraway more_*  editing than `.md` files. 
- 
+AsciiDosc are a *_powerfull_* documentation tool, that permit *_faraway more_*  editing than `.md` files.

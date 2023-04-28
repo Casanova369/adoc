@@ -21,7 +21,7 @@ echo.
 
 echo Process finished successfully!
 
-rem Keep the command prompt window open 
+rem Keep the command prompt opened
 pause
 
 :: Mondieur G

@@ -4,7 +4,6 @@
 * [ ] How it works ()
 * [ ] What it solves
 
-
 [source,java]
 ----
 package com.example;
