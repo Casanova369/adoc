@@ -25,6 +25,13 @@ if "%value%" equ "%no%" (
   git config user.name %inputB%
   ECHO DONE: Repo initialized and configured!
 
+  color 05
+  set /p option=INFO: Choose an option!: 
+
+  if "%option%"=="1" goto option1
+  if "%option%"=="2" goto option2
+  if "%option%"=="3" goto option3
+
 ) else (
   :: If the user responds with anything else, cancel future operations
   color 0c
@@ -33,3 +40,7 @@ if "%value%" equ "%no%" (
   pause
   goto start_again
 )
+
+:option1
+:option2
+:option3
