@@ -1,0 +1,72 @@
+= Git `-m` prefixes
+
+1. `(init)`: `Ready. Set. Go!`
+2. `feat`:
+3. `fix`:
+4. `docs`:
+5. `style`:
+6. `refactor`:
+7. `test`:
+8. `perf`:
+9. `revert`:
+10. `merge`:
+11. `build`:
+12. `ci`:
+13. `chore:` nothing of code (e.g. documentation, comments or core readability)
+14. `chore(deps)`:
+15. `chore(ci)`:
+16. `chore(release)`:
+17. `refactor(tests)`:
+18. `refactor(docs)`:
+19. `chore(style)`:
+20. `chore(docs)`:
+21. `ci(scripts)`:
+22. `localize`:
+23. `security`:
+24. `vendor`:
+25. `deploy`:
+26. `audit`:
+27. `refactor(ui)`:
+28. `refactor(api/app)`:
+29. `optimize`:
+30. `analyze`:
+31. `migrate`: 
+32. `modified`: for modifications
+33. `add`: adding files
+34. `update`: updating files
+35. `remove`: removing files
+36. `optimize`: for code
+37. `debug`: for code
+38. `documentation`: versions, specification and legacy
+39. `polish`:
+40. `rename`: rename files
+41. `improve`: clean code
+42. `clean`: improve code
+43. `format`: for bad code identation
+44. `ignore`: .ignore files  
+45. `configure`: configuration files
+46. `feature`: include functionality
+47. `hotfix`: quick-fix package files update
+48. `package`: include package (name)
+49. `release`: for new versions
+50. `support`: for community help
+51. `upgrade`: specify upgrade
+52. `downgrade`: specify downgrade
+53. `tweak`: adjust code
+54. `adjust`: tweak code
+55. `enhance`: improved (what?)
+56. `move`: moving files
+57. `copy`: copying files
+58. `paste`: pasting files
+59. `synchronize`: 
+60. `internationalize`:
+61. `customize`:
+62. `extend`:
+63. `generate`:
+64. `implement`:
+65. `integrate`:
+66. `modernize`:
+67. `patch`:
+68. `resolve`:
+69. `standardize`:
+70. `tweaked`:
