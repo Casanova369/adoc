@@ -1,6 +1,14 @@
 @echo off
 
-color 07
+
+chcp 65001
+ECHO.
+ECHO ╔╦╗┌─┐┌┐┌┌┬┐┬┌─┐┬ ┬┬─┐  ╔═╗┌─┐┬─┐┌─┐┌┬┐┌─┐┌┐┌┌┬┐ 
+ECHO ║║║│ ││││ │││├┤ │ │├┬┘  ║ ╦├─┤├┬┘├─┤││││ ││││ ││ 
+ECHO ╩ ╩└─┘┘└┘─┴┘┴└─┘└─┘┴└─  ╚═╝┴ ┴┴└─┴ ┴┴ ┴└─┘┘└┘─┴┘
+ECHO.
+
+color 05
 
 :: Prompt the user to initialize a git repo
 :start_again
@@ -13,11 +21,13 @@ SET "no=N"
 :: Check the user's response
 if "%value%" equ "%no%" (
   :: If the user responds "no", cancel future operations
-  echo The operation was canceled.
-  cmd /k
+  color 06
+  ECHO INFO: The operation was canceled.
+  CMD /k
 
 ) else if "%value%" equ "%yes%"  (
   :: If the user responds "yes", configure the git repo locally
+  color 07
   SET /p inputA="you@example.com? " 
   SET /p inputB="Your Name? "
   git init
