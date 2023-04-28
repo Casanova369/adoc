@@ -14,9 +14,9 @@ public class Main {
   }
 }
 ----
-<1> Library import
-<2> URL mapping
-<3> HTTP response body
+- 1 Library import
+- 2 URL mapping
+- 3 HTTP response body
 
 ____
 Four score and seven years ago our fathers brought forth
