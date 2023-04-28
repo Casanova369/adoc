@@ -1,0 +1,25 @@
+= The Open Charge Point Interface (OCPI)
+
+* [ ] How it works (General)
+* [ ] How it works ()
+* [ ] What it solves
+
+
+[source,java]
+----
+package com.example;
+
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World!");
+  }
+}
+----
+<1> Library import
+<2> URL mapping
+<3> HTTP response body
+
+____
+Four score and seven years ago our fathers brought forth
+on this continent a new nation...
+____
